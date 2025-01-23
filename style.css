@@ -1,8 +1,8 @@
 body {
 margin: 0;
 font-family: Helvetica, Arial, sans-serif;
-background-color: #121212;
-color: #ff4d00;
+background-color: #001f3f;
+color: #FF8C00;
 text-align: center;
 line-height: 1.6;
 }
@@ -10,7 +10,7 @@ line-height: 1.6;
 /* Header Styling */
 header {
 background-color: #ffffff;
-color: #121212;
+color: #001f3f;
 padding: 20px;
 text-align: center;
 }
@@ -42,7 +42,7 @@ text-indent: -20px;
 }
 
 .bold {
-color: #ff4d00;
+color: #FF8C00;
 }
 
 /* Videos Section */
@@ -77,7 +77,7 @@ height: auto;
 .video-title {
 font-size: 1.1em;
 padding: 10px;
-background-color: #121212;
+background-color: #001f3f;
 color: #ffffff;
 text-align: center;
 text-transform: capitalize;
@@ -93,16 +93,16 @@ margin: 30px 0;
 display: inline-block;
 padding: 15px 30px;
 font-size: 1.2em;
-color: #121212;
+color: #001f3f;
 background-color: #ffffff;
-border: 2px solid #ff4d00;
+border: 2px solid #FF8C00;
 border-radius: 10px;
 text-decoration: none;
 transition: all 0.3s ease;
 }
 
 .cta-button:hover {
-background-color: #ff4d00;
+background-color: #FF8C00;
 color: #ffffff;
 }
 
@@ -110,7 +110,7 @@ color: #ffffff;
 .social-media-section {
 background-color: #ffffff;
 padding: 20px;
-color: #121212;
+color: #001f3f;
 }
 
 .social-media-section h2 {
@@ -128,20 +128,20 @@ flex-wrap: wrap;
 
 .social-links a {
 font-size: 1.2em;
-color: #ff4d00;
+color: #FF8C00;
 text-decoration: none;
 margin: 5px;
 transition: color 0.3s ease;
 }
 
 .social-links a:hover {
-color: #121212;
+color: #001f3f;
 }
 
 /* Footer */
 footer {
 padding: 10px;
-background-color: #121212;
+background-color: #001f3f;
 color: #ffffff;
 font-size: 1em;
 }
