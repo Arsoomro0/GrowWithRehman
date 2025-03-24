@@ -2,58 +2,69 @@ body {
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
     background-color: #FF8C00;
-    color: #1B0A2A;
+    color: #001F3F;
     text-align: center;
     line-height: 1.6;
-    }
-    
-    /* Header Styling */
-    header {
-    background-color: #1B0A2A;
+}
+
+/* Header Styling */
+header {
+    background-color: #001F3F;
     color: #ffffff;
     padding: 20px;
     text-align: center;
-    }
-    
-    h1 {
+    position: relative;
+}
+
+/* Profile Picture - Changes Position Based on Screen Size */
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px; /* Rounded square */
+    object-fit: cover;
+    border: 3px solid #ffffff;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+h1 {
     font-size: 2.5em;
     margin: 0;
     line-height: 1.2;
-    }
-    
-    p {
+}
+
+p {
     font-size: 1.2em;
     margin: 15px 0;
-    }
-    
-    .benefits {
+}
+
+.benefits {
     list-style: none;
     padding: 0;
     margin: 10px auto;
     max-width: 90%;
-    }
-    
-    .benefits li {
+}
+
+.benefits li {
     margin: 8px 0;
     font-size: 1.1em;
-    padding-left: 20px;
-    text-indent: -20px;
-    }
-    
-    .bold {
+}
+
+.bold {
     color: #FF8C00;
-    }
-    
-    /* Videos Section */
-    .videos {
+}
+
+/* Videos Section */
+.videos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     padding: 20px;
-    }
-    
-    .video-container {
+}
+
+.video-container {
     width: 100%;
     max-width: 300px;
     background-color: #ffffff;
@@ -62,178 +73,146 @@ body {
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s ease;
-    }
-    
-    .video-container:hover {
+}
+
+.video-container:hover {
     transform: scale(1.05);
-    }
-    
-    .video-container video {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.video-player {
     width: 100%;
     height: auto;
-    }
-    
-    .video-title {
+}
+
+.video-title {
     font-size: 1.1em;
     padding: 10px;
-    background-color: #1B0A2A;
+    background-color: #001F3F;
     color: #ffffff;
-    text-align: center;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    }
-    
-    /* Connect Me Section */
-    .connect-me-section {
+}
+
+/* Connect Me Section */
+.connect-me-section {
     margin: 30px 0;
-    }
-    
-    .cta-button {
+}
+
+.cta-button {
     display: inline-block;
     padding: 15px 30px;
     font-size: 1.2em;
-    color: #1B0A2A;
+    color: #001F3F;
     background-color: #ffffff;
-    border: 2px solid #1B0A2A;
+    border: 2px solid #001F3F;
     border-radius: 10px;
     text-decoration: none;
     transition: all 0.3s ease;
-    }
-    
-    .cta-button:hover {
-    background-color: #1B0A2A;
+}
+
+.cta-button:hover {
+    background-color: #001F3F;
     color: #ffffff;
-    border: 2px solid #ffffff;
-    }
-    
-    /* Social Media Section */
-    .social-media-section {
-    background-color: #1B0A2A;
+}
+
+/* Social Media Section */
+.social-media-section {
+    background-color: #001F3F;
     padding: 20px;
     color: #ffffff;
-    }
-    
-    .social-media-section h2 {
+}
+
+.social-media-section h2 {
     font-size: 2em;
     margin-bottom: 20px;
-    }
-    
-    .social-links {
+}
+
+.social-links {
     margin-top: 10px;
     display: flex;
     justify-content: center;
     gap: 15px;
-    flex-wrap: wrap;
-    }
-    
-    .social-links a {
+}
+
+.social-links a {
     font-size: 1.2em;
     color: #FF8C00;
     text-decoration: none;
-    margin: 5px;
-    transition: color 0.3s ease;
-    }
-    
-    .social-links a:hover {
+    transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
     color: #ffffff;
-    }
-    
-    /* Footer */
-    footer {
+}
+
+.social-links a:active {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
     padding: 10px;
     background-color: #000000;
     color: #ffffff;
     font-size: 1em;
-    }
+}
 
-    /* Social Media Button Animation */
-    .social-links a {
-    font-size: 1.2em;
-    color: #FF8C00;
-    text-decoration: none;
-    margin: 5px;
-    transition: transform 0.2s ease, color 0.3s ease;
-    display: inline-block;
-    }
-
-    .social-links a:hover {
-    color: #ffffff;
-    }
-
-    .social-links a:active {
-    transform: scale(1.1);
-    }
-
-    body {
-        background-color: #FF8C00;
-        color: #001F3F; /* Changed from #1B0A2A to navy blue */
-    }
-    
-    header {
-        background-color: #001F3F; /* Changed to navy blue */
-    }
-    
-    .video-title {
-        background-color: #001F3F; /* Changed to navy blue */
-    }
-    
-    .cta-button {
-        color: #001F3F; /* Text color changed to navy */
-        border: 2px solid #001F3F; /* Border color changed to navy */
-    }
-    
-    .cta-button:hover {
-        background-color: #001F3F; /* Hover background changed to navy */
-    }
-    
-    .social-media-section {
-        background-color: #001F3F; /* Changed to navy blue */
-    }
-
-    /* Responsive Design */
-    @media (max-width: 768px) {
+/* Responsive Design */
+@media (max-width: 768px) {
     h1 {
-    font-size: 2em;
+        font-size: 2em;
     }
-    p{
-    margin-bottom: 20px;
-    }
+
     .benefits {
-    padding: 0 10px;
-    text-align: left;
-    font-size: 12px;
+        padding: 0 10px;
+        text-align: left;
+        font-size: 12px;
     }
+
     .videos {
-    flex-direction: column;
-    align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
+
     .video-container {
-    width: 90%;
+        width: 90%;
     }
+
     .cta-button {
-    padding: 10px 20px;
-    font-size: 1em;
+        padding: 10px 20px;
+        font-size: 1em;
     }
+
     .social-links {
-    flex-direction: column;
+        flex-direction: column;
     }
+
     .social-links a {
-    font-size: 1em;
+        font-size: 1em;
     }
+
+    /* Move profile picture to the center on mobile */
+    .profile-picture {
+        position: static;
+        display: block;
+        margin: 0 auto 15px;
     }
-    
-    @media (min-width: 1200px) {
+}
+
+@media (min-width: 1200px) {
     .videos {
-    gap: 30px;
+        gap: 30px;
     }
+
     .video-container {
-    width: 350px;
+        width: 350px;
     }
+
     .cta-button {
-    padding: 20px 40px;
-    font-size: 1.5em;
+        padding: 20px 40px;
+        font-size: 1.5em;
     }
+
     .social-links a {
-    font-size: 1.5em;
+        font-size: 1.5em;
     }
-    }
+}
