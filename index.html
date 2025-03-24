@@ -8,34 +8,35 @@
 </head>
 <body>
     <header>
-        <h1>Content that Grows Your Business</h1>
-        <p>Grow your business with content that has:</p>
+        <img src="ars_picture_black.png" alt="Abdul Rehman" class="profile-picture">
+        <h1>Attract Clients on Autopilot</h1>
+        <p>Make Your Content a Client Magnet—So You Can Focus on Growth.</p>
         <ul class="benefits">
-            <li>✔️ Movie clips: To<span class="bold"> Hook</span> your audience.</li>
-            <li>✔️ Persuasive script: To generate <span class="bold">leads.</span></li>
-            <li>✔️ Engaging content: To grow your <span class="bold">social media audience.</span></li>
+            <li>✔️ Hooks so <span class="bold">powerful</span> they make scrolling impossible.</li>
+            <li>✔️ Psychological <span class="bold">triggers</span> that turn views into buyers.</li>
+            <li>✔️ Editing that turns every second into a <span class="bold">dopamine hit.</span></li>
         </ul>
     </header>
 
     <div class="videos">
         <div class="video-container">
-            <video controls>
+            <video class="video-player" controls>
                 <source src="video1.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             <p class="video-title">Educational: Motivational niche</p>
         </div>
         <div class="video-container">
-            <video controls>
+            <video class="video-player" controls>
                 <source src="video2.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             <p class="video-title">Educational: Business niche</p>
         </div>
         <div class="video-container">
-            <video controls>
+            <video class="video-player" controls>
                 <source src="video3.mp4" type="video/mp4">
-                Your browser does not support video tags.
+                Your browser does not support the video tag.
             </video>
             <p class="video-title">Podcast: Motivational niche</p>
         </div>
@@ -49,12 +50,27 @@
         <h2>Follow Me</h2>
         <div class="social-links">
             <a href="https://www.instagram.com/rahmanz.edit/" target="_blank">Instagram</a>
-            <a href="https://www.youtube.com/@GrowwithAbdulRahman" target="_blank">Youtube</a>
+            <a href="https://www.youtube.com/@GrowwithAbdulRahman" target="_blank">YouTube</a>
         </div>
     </section>
 
     <footer>
         <p>&copy; 2024 My Work Showcase</p>
     </footer>
+
+    <script>
+        // JavaScript to stop other videos when one plays
+        const videos = document.querySelectorAll('.video-player');
+
+        videos.forEach(video => {
+            video.addEventListener('play', () => {
+                videos.forEach(v => {
+                    if (v !== video) {
+                        v.pause();
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
