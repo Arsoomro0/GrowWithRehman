@@ -1,16 +1,16 @@
 body {
     margin: 0;
     font-family: Inter, Arial, sans-serif;
-    background-color: #D9A35F;
-    color: #0A0F2C;
+    background-color: #FF8C00;
+    color: #001F3F;
     text-align: center;
     line-height: 1.6;
 }
 
 /* Header Styling */
 header {
-    background-color: #0A0F2C;
-    color: ##F5F0D3;
+    background-color: #001F3F;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
     position: relative;
@@ -22,7 +22,7 @@ header {
     height: 120px;
     border-radius: 20px; /* Rounded square */
     object-fit: cover;
-    border: 3px solid ##F5F0D3;
+    border: 3px solid #ffffff;
     position: absolute;
     left: 20px;
     top: 20px;
@@ -52,7 +52,7 @@ p {
 }
 
 .bold {
-    color: #D9A35F;
+    color: #FF8C00;
 }
 
 /* Videos Section */
@@ -67,8 +67,8 @@ p {
 .video-container {
     width: 100%;
     max-width: 300px;
-    background-color: ##F5F0D3;
-    border: 2px solid ##F5F0D3;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     overflow: hidden;
@@ -88,8 +88,8 @@ p {
 .video-title {
     font-size: 1.1em;
     padding: 10px;
-    background-color: #0A0F2C;
-    color: ##F5F0D3;
+    background-color: #001F3F;
+    color: #ffffff;
 }
 
 /* Connect Me Section */
@@ -101,24 +101,24 @@ p {
     display: inline-block;
     padding: 15px 30px;
     font-size: 1.2em;
-    color: #0A0F2C;
-    background-color: ##F5F0D3;
-    border: 2px solid #0A0F2C;
+    color: #001F3F;
+    background-color: #ffffff;
+    border: 2px solid #001F3F;
     border-radius: 10px;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: #0A0F2C;
-    color: ##F5F0D3;
+    background-color: #001F3F;
+    color: #ffffff;
 }
 
 /* Social Media Section */
 .social-media-section {
-    background-color: #0A0F2C;
+    background-color: #001F3F;
     padding: 20px;
-    color: ##F5F0D3;
+    color: #ffffff;
 }
 
 .social-media-section h2 {
@@ -135,13 +135,13 @@ p {
 
 .social-links a {
     font-size: 1.2em;
-    color: #D9A35F;
+    color: #FF8C00;
     text-decoration: none;
     transition: transform 0.2s ease, color 0.3s ease;
 }
 
 .social-links a:hover {
-    color: ##F5F0D3;
+    color: #ffffff;
 }
 
 .social-links a:active {
@@ -152,7 +152,7 @@ p {
 footer {
     padding: 10px;
     background-color: #000000;
-    color: ##F5F0D3;
+    color: #ffffff;
     font-size: 1em;
 }
 
