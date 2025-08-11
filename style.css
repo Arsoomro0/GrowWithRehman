@@ -1,16 +1,16 @@
 body {
     margin: 0;
     font-family: Inter, Arial, sans-serif;
-    background-color: #FF8C00;
-    color: #001F3F;
+    background-color: #d9a35f;
+    color: #0a0f2c;
     text-align: center;
     line-height: 1.6;
 }
 
 /* Header Styling */
 header {
-    background-color: #001F3F;
-    color: #ffffff;
+    background-color: #0a0f2c;
+    color: #f5f0d3;
     padding: 20px;
     text-align: center;
     position: relative;
@@ -22,7 +22,7 @@ header {
     height: 120px;
     border-radius: 20px; /* Rounded square */
     object-fit: cover;
-    border: 3px solid #ffffff;
+    border: 3px solid #f5f0d3;
     position: absolute;
     left: 20px;
     top: 20px;
@@ -52,7 +52,7 @@ p {
 }
 
 .bold {
-    color: #FF8C00;
+    color: #d9a35f;
 }
 
 /* Videos Section */
@@ -67,8 +67,8 @@ p {
 .video-container {
     width: 100%;
     max-width: 300px;
-    background-color: #ffffff;
-    border: 2px solid #ffffff;
+    background-color: #f5f0d3;
+    border: 2px solid #f5f0d3;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     overflow: hidden;
@@ -88,8 +88,8 @@ p {
 .video-title {
     font-size: 1.1em;
     padding: 10px;
-    background-color: #001F3F;
-    color: #ffffff;
+    background-color: #0a0f2c;
+    color: #f5f0d3;
 }
 
 /* Connect Me Section */
@@ -102,23 +102,23 @@ p {
     padding: 15px 30px;
     font-size: 1.2em;
     color: #001F3F;
-    background-color: #ffffff;
-    border: 2px solid #001F3F;
+    background-color: #f5f0d3;
+    border: 2px solid #0a0f2c;
     border-radius: 10px;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: #001F3F;
-    color: #ffffff;
+    background-color: #0a0f2c;
+    color: #f5f0d3;
 }
 
 /* Social Media Section */
 .social-media-section {
-    background-color: #001F3F;
+    background-color: #0a0f2c;
     padding: 20px;
-    color: #ffffff;
+    color: #f5f0d3;
 }
 
 .social-media-section h2 {
@@ -135,13 +135,13 @@ p {
 
 .social-links a {
     font-size: 1.2em;
-    color: #FF8C00;
+    color: #d9a35f;
     text-decoration: none;
     transition: transform 0.2s ease, color 0.3s ease;
 }
 
 .social-links a:hover {
-    color: #ffffff;
+    color: #f5f0d3;
 }
 
 .social-links a:active {
@@ -216,3 +216,4 @@ footer {
         font-size: 1.5em;
     }
 }
+
