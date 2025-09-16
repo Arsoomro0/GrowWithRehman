@@ -1,23 +1,23 @@
 body {
     margin: 0;
     font-family: Inter, Arial, sans-serif;
-    background-color: #d9a35f;
-    color: #0a0f2c;
+    background-color: #f5f0d3; /* Cream */
+    color: #0a0f2c; /* Deep Navy */
     text-align: center;
     line-height: 1.6;
-    letter-spacing: -1px;
+    letter-spacing: -0.5px;
 }
 
 /* Header Styling */
 header {
-    background-color: #0a0f2c;
-    color: #f5f0d3;
+    background-color: #0a0f2c; /* Deep Navy */
+    color: #f5f0d3; /* Cream */
     padding: 20px;
     text-align: center;
     position: relative;
 }
 
-/* Profile Picture - Changes Position Based on Screen Size */
+/* Profile Picture */
 .profile-picture {
     width: 120px;
     height: 120px;
@@ -53,7 +53,7 @@ p {
 }
 
 .bold {
-    color: #d9a35f;
+    color: #e56000; /* Dopamine accent */
 }
 
 /* Videos Section */
@@ -68,10 +68,10 @@ p {
 .video-container {
     width: 100%;
     max-width: 300px;
-    background-color: #f5f0d3;
+    background-color: #ffffff;
     border: 2px solid #f5f0d3;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+    border-radius: 12px;
     overflow: hidden;
     transition: transform 0.3s ease;
 }
@@ -102,12 +102,13 @@ p {
     display: inline-block;
     padding: 15px 30px;
     font-size: 1.2em;
-    color: #001F3F;
-    background-color: #f5f0d3;
-    border: 2px solid #0a0f2c;
-    border-radius: 10px;
+    color: #ffffff;
+    background-color: #e56000; /* Dopamine accent */
+    border: none;
+    border-radius: 12px;
     text-decoration: none;
     transition: all 0.3s ease;
+    font-weight: bold;
 }
 
 .cta-button:hover {
@@ -136,9 +137,10 @@ p {
 
 .social-links a {
     font-size: 1.2em;
-    color: #d9a35f;
+    color: #e56000; /* Dopamine accent */
     text-decoration: none;
     transition: transform 0.2s ease, color 0.3s ease;
+    font-weight: 600;
 }
 
 .social-links a:hover {
@@ -152,8 +154,8 @@ p {
 /* Footer */
 footer {
     padding: 10px;
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #0a0f2c;
+    color: #f5f0d3;
     font-size: 1em;
 }
 
@@ -191,7 +193,6 @@ footer {
         font-size: 1em;
     }
 
-    /* Move profile picture to the center on mobile */
     .profile-picture {
         position: static;
         display: block;
@@ -217,5 +218,3 @@ footer {
         font-size: 1.5em;
     }
 }
-
-
