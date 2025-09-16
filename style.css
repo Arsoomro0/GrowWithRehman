@@ -107,7 +107,7 @@ p {
     color: #ffffff;
     background-color: #e56000; /* Dopamine accent */
     border: none;
-    border-radius: 12px;
+    border-radius: 10px;
     text-decoration: none;
     transition: all 0.3s ease;
     font-weight: 100;
@@ -220,4 +220,5 @@ footer {
         font-size: 1.5em;
     }
 }
+
 
