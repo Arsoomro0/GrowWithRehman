@@ -6,6 +6,7 @@ body {
     text-align: center;
     line-height: 1.6;
     letter-spacing: -0.5px;
+    font-weight: 100;
 }
 
 /* Header Styling */
@@ -50,6 +51,7 @@ p {
 .benefits li {
     margin: 8px 0;
     font-size: 1.1em;
+    font-weight: 100;
 }
 
 .bold {
@@ -108,7 +110,7 @@ p {
     border-radius: 12px;
     text-decoration: none;
     transition: all 0.3s ease;
-    font-weight: bold;
+    font-weight: 100;
 }
 
 .cta-button:hover {
@@ -140,7 +142,7 @@ p {
     color: #e56000; /* Dopamine accent */
     text-decoration: none;
     transition: transform 0.2s ease, color 0.3s ease;
-    font-weight: 600;
+    font-weight: 100;
 }
 
 .social-links a:hover {
@@ -154,8 +156,8 @@ p {
 /* Footer */
 footer {
     padding: 10px;
-    background-color: #0a0f2c;
-    color: #f5f0d3;
+    background-color: #f5f0d3;
+    color: #0a0f2c;
     font-size: 1em;
 }
 
@@ -218,3 +220,4 @@ footer {
         font-size: 1.5em;
     }
 }
+
